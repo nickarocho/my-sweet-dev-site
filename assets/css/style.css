@@ -1,0 +1,67 @@
+/* global selector */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Satisfy", sans-serif;
+}
+
+/* element selectors */
+header {
+  position: fixed;
+  border-bottom: 10px solid #c3ab88;
+  background: black;
+  width: 100%;
+}
+
+main {
+  padding-top: 100px; /* to offset for `fixed` header */
+}
+
+nav {
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+/* class/ID selectors */
+#contact {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #bfac8c;
+}
+
+.hello-image {
+  width: 300px;
+}
+
+.submit-button {
+  padding: 5px 10px;
+  background: black;
+  color: #faf6e5;
+  border: 2px solid #ee88cd;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.input-wrapper {
+  display: block;
+  padding: 5px 0;
+}
+
+/* utility classes */
+.util--text-right {
+  text-align: right;
+}
+.util--text-center {
+  text-align: center;
+}
